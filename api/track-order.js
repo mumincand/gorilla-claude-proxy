@@ -1,7 +1,7 @@
 
 
 const ALLOWED_ORIGINS = [
-  "https://www.gorillagrowtent.com/",
+  "https://www.gorillagrowtent.com",
   "https://gorilla-grow-tent.myshopify.com",
 ];
 
@@ -47,7 +47,7 @@ export default async function handler(req, res) {
     const apiVersion = "2024-10";
     const normalized = orderNumber.toString().startsWith("#")
       ? orderNumber.toString()
-      : `#${orderNumber}`;
+      : `GG-${orderNumber}`;
 
     const qName = encodeURIComponent(normalized);
     const qEmail = encodeURIComponent(email.trim());
