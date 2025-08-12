@@ -1,5 +1,5 @@
 const ALLOWED_ORIGINS = [
-  "https://www.gorillagrowtent.com/",
+  "https://www.gorillagrowtent.com",
   "https://gorilla-grow-tent.myshopify.com", 
 ];
 
